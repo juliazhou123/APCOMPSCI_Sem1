@@ -8,12 +8,21 @@ public class Lab_02
 		
 		System.out.println(x + " multiplied by "+ y + " is " + product);
 		
-		String name = Julia;
-		int address number = 12;
-		String address = Road;
-		String city = SanDiego;
-		int zip = 9213;
+		String name = "Julia Zhou";
+		int a = 12;
+		String address = " Crystal Road";
+		String city = "San Diego";
+		int z = 21321;
 		
-		System.out.println("name" + "\n" + address number + "\n" + "address" + "\n" + "city" +"\n" + zip);
+		System.out.println("\n" + name + "\n" + a + address + "\n" + city +"\n" + z);
+		
+		int l = 6;
+		int w = 7;
+		int h = 8;
+		int surfacearea = 2 * w * l+ 2 * h * l + 2 * h * w;
+		
+		System.out.println("\n" + "The surface area of your rectangle is " + surfacearea);
+		
+		
 	}
 }
